@@ -34,8 +34,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          cache-from: ##########################
-          cache-to: ############################
           platforms: linux/arm64/v8,linux/amd64 
           context: #############################
           file: ################################
